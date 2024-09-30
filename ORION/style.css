@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body a{
+    text-decoration: none;
+    color: white;
+}
+.subtitle{
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 5px;
+}
+
+/* navbar */
+
+.navbar .navbar-brand img{
+    width: 100px;
+}
+.navbar .navbar-nav{
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar .nav-link:hover{
+    color: white;
+}
+.navbar .btn{
+    color: #131315;
+    background-color: white;
+    width: 130px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.navbar .btn:hover{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+/* hero */
+#hero .nav .nav-link{
+    color: white;
+    margin-right: 20px;
+}
+#hero .nav .active{
+    background: none;
+    border: 1px solid white;
+}
+#hero .form-control {
+    padding: 8px;
+}
+.onsale .card{
+    background: none;
+    border: none;
+}
+.recommended .card{
+    background: none;
+    border: none;
+}
+.feature .card{
+    background: none;
+    border: none;
+}
+/* Footer */
+footer{
+    padding: 30px 30px;
+    margin-top: 30px;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer li{
+    display: inline;
+    padding-right: 20px;
+}
+footer .copyright-text{
+    color: grey;
+    text-align: end;
+}
